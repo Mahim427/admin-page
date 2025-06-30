@@ -182,3 +182,75 @@ h4 {
 .grid-group svg {
   place-self: center;
 }
+
+
+/*Main*/
+.main {
+  --gap: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: var(--gap);
+  padding: calc(var(--padding) * 2) calc(var(--padding) * 3) calc(var(--padding) * 2) var(--padding);
+  background-color: var(--clr-blue-100);
+  color: hsl(var(--clr-gray-hsl), .7);
+}
+
+.main h2 {
+  margin-bottom: var(--padding);
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: var(--gap);
+}
+
+.projects .card {
+  border-left: 8px solid var(--clr-purple);
+}
+
+.card {
+  display: grid;
+  gap: var(--gap);
+  padding: calc(var(--padding) * 2) calc(var(--padding) * 1.5) var(--padding);
+  background-color: var(--clr-white);
+  border-radius: .5rem;
+}
+
+.card .info,
+.announcements .card div {
+  display: grid;
+  gap: .2rem;
+}
+
+.card .icons {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: end;
+  gap: var(--gap);
+}
+
+.main-etc {
+  display: grid;
+  gap: calc(var(--gap) * 1.5);
+}
+
+hr {
+  color: hsl(var(--clr-gray-hsl), .7);
+}
+
+.main-etc .card {
+  padding: calc(var(--padding) * 2.2) calc(var(--padding) * 2);
+}
+
+.announcements,
+.trending h4 {
+  font-size: var(--fs-300);
+}
+
+.other-users {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: calc(var(--gap) * 0.7);
+}
