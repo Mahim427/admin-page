@@ -2,7 +2,7 @@
 
 This is a solution to the [Project: Admin Dashboard](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard) from The Odin Project.
 
-- Live Site URL: [Try it now]()
+- Live Site URL: [Try it now](https://mahim427.github.io/admin-page/)
 
 ## Overview
 
