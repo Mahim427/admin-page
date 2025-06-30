@@ -1,0 +1,49 @@
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-black: hsl(0, 0%, 0%);
+  --clr-blue-100: hsl(205, 100%, 94%);
+  --clr-blue-400: hsl(212, 100%, 62%);
+  --clr-gray-hsl: 0, 0%, 0%;
+  --clr-purple: hsl(288, 95%, 42%);
+
+  --fw-regular: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-black: 800;
+
+  --fs-200: .725rem;
+  --fs-300: .850rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.25rem;
+  --fs-600: 1.5rem;
+  --fs-700: 1.75rem;
+  --fs-800: 2rem;
+}
+
+/*Reset*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+svg {
+  width: 20px;
+}
+img {
+  display: block;
+  width: 50px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
