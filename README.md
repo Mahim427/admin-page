@@ -1,4 +1,4 @@
-# Frontend Mentor - Results summary component solution
+# Odin Project: Admin Dashboard
 
 This is a solution to the [Project: Admin Dashboard](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard) from The Odin Project.
 
